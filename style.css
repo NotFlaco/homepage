@@ -1,0 +1,69 @@
+
+ p {
+  text-align: center;
+}
+
+h2 {
+	text-align: bottom;
+}
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #C9C9C9;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:active {
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ body {
+   color: #fbf8ff;
+   font-family: "Anonymous Pro";
+   background-image: url('starry.png');
+   text-align: center; 
+}
+
+.noctis {
+	position: fixed;
+	bottom: 0;
+	margin: center;
+	width: 20px;
+}
+
+.noctis a {
+	text-decoration: none;
+	color: transparent;
+}
+
+.noctis:hover a {
+	color: #C9C9C9;
+}
+
+.pic {
+	position: absolute;
+	bottom: 0;
+	visibility: hidden;
+}
+
+.pic:target {visibility: visible;}
+
+img {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
